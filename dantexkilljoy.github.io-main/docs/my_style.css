@@ -1,0 +1,108 @@
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #faeee7;
+  background-image: url("https://media.tenor.com/GiO4XNKti44AAAAd/retrowave-synthwave.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-image {
+  width: 200px;
+  height: 250px;
+  object-fit: fill;
+  border-radius: 300px;
+  border-color:rgb(243, 99, 99);
+  border-width: 5px;
+  border-top: 5px;
+  border-right: 5px;
+  border-style: solid;
+}
+
+.thumbnail {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 80px;
+  object-fit: fill;
+  display: flex;
+  justify-content: left;
+}
+
+.name {
+  color: #f3f3f3;
+}
+
+.social-icons a {
+  color: #ed7994;
+  text-decoration: none;
+}
+
+.link {
+  background: linear-gradient(90deg,transparent,purple,transparent);
+  transition: 0.5s;
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  border-radius: 500px;
+  box-shadow: 10px 9px 10px;
+}
+
+.link a {
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+  font-family: 'Raleway', Sans-Serif;
+  font-size: 20px;
+}
+
+.link:hover {
+  background-color: #ffc6c7;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 640px;
+  flex-grow: 1;
+}
+
+.name {
+  color: #58A7AF;
+  text-transform: capitalize;
+  text-shadow: 2px 2px #000000;
+  text-shadow: 15px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Vollkorn',Serif;
+  font-size: 70px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icons svg {
+  color: #58A7AF;
+}
+
+
+.social-icons svg:hover {
+  color: #000000;
+}
